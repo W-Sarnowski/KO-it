@@ -3,4 +3,8 @@ project(KO_pointers)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(KO_pointers main.cpp)
+add_executable(KO_pointers main.cpp
+        "zaj1 .cpp"
+        "zaj1 .h"
+        zaj2.cpp
+        zaj2.h)
